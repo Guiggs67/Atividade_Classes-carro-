@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO.Pipes;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,36 +11,33 @@ namespace Atividade_de_classe_carro_
 {
     internal class Carro
     {
-        public string[]_modelo;
-        public string[]_marca;
-        public int[]_ano;
-        public double[]_velocidade;
-        public int n_car;
+        public string _modelo;
+        public string _marca;
+        public int _ano;
+        public double _velocidade;
        
-        public Carro(int n_car, string [] modelo, string[] marca, int[] ano, double[]velocidade)
+        public Carro(string  modelo, string marca, int ano, double velocidade)
         {
             _modelo = modelo;
             _marca = marca;
             _ano = ano;
             _velocidade = velocidade;
         }
-        public void Acelerar(double []velocidade)
+        public void Acelerar()
         {
-            _velocidade = velocidade;
-            
-            for (int i = 0; i < n_car; i++)
-            {
-                velocidade[i] += 50;
-            }
+            _velocidade +=50;
+                 
 
         }
-        public void Parar(double []velocidade)
+        public void Parar()
         {
-            _velocidade = velocidade;
-            for (int i = 0; i < n_car; i++)
-            {
-                velocidade[i] =0;
-            }
+            _velocidade =0;
+        }
+
+        public void Escrita()
+        {
+            Console.WriteLine(_modelo, _marca, _ano, _velocidade);
+
         }
 
 

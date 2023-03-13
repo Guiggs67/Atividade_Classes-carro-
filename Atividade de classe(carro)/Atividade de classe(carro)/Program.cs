@@ -17,46 +17,43 @@ namespace Atividade_de_classe_carro_
             Console.WriteLine("Digite o numero de carros: ");
             n_carros = int.Parse(Console.ReadLine());
 
-            string[] marca= new string[n_carros];
-            string[] modelo = new string[n_carros];
-            int[] ano = new int[n_carros];
-            double[] velocidade = new double[n_carros];
-            
+            Carro[] C1 = new Carro[n_carros];
 
-            Carro C1 = new Carro (n_carros,modelo,marca, ano, velocidade);
+            string marca;
+            string modelo;
+            int ano;
+            double velocidade;
             
 
 
             for(int i =0; i <n_carros; i ++)
             {
                 Console.WriteLine("Digite a marca do carro:");
-                marca[i] = Console.ReadLine();
+                marca = Console.ReadLine();
                 Console.WriteLine("Digite a modelo do carro:");
-                modelo[i] = Console.ReadLine();
+                modelo= Console.ReadLine();
                 Console.WriteLine("Digite a ano do carro:");
-                ano[i] = int.Parse(Console.ReadLine());
+                ano= int.Parse(Console.ReadLine());
                 Console.WriteLine("Digite a velocidade do carro:");
-                velocidade[i] = double.Parse(Console.ReadLine());
+                velocidade= double.Parse(Console.ReadLine());
+                C1[i] = new Carro(modelo, marca, ano, velocidade);
 
                 Console.WriteLine("Deseja acelerar(1) ou parar(2)");
                 int resposta = int.Parse(Console.ReadLine());
 
                 if (resposta == 1)
                 {
-                    C1.Acelerar(velocidade);
+                    C1[i].Acelerar();
                 }
                 else
                 {
-                    C1.Parar(velocidade);
+                    C1[i].Parar();
                 }
 
             }
             for (int i = 0; i < n_carros; i++)
             {
-                Console.WriteLine(marca[i]);
-                Console.WriteLine(modelo[i]);
-                Console.WriteLine(ano[i]);
-                Console.WriteLine(velocidade[i]);
+                Console.WriteLine(C1[i].Escrita());
             }
 
             Console.ReadKey();
