@@ -1,0 +1,16 @@
+C:\Users\Administrador\Documents\C#\Exercícios\Atividade de classe(carro)\Atividade de classe(carro)\bin\Debug\Atividade de classe(carro).exe.config
+C:\Users\Administrador\Documents\C#\Exercícios\Atividade de classe(carro)\Atividade de classe(carro)\bin\Debug\Atividade de classe(carro).exe
+C:\Users\Administrador\Documents\C#\Exercícios\Atividade de classe(carro)\Atividade de classe(carro)\bin\Debug\Atividade de classe(carro).pdb
+C:\Users\Administrador\Documents\C#\Exercícios\Atividade de classe(carro)\Atividade de classe(carro)\obj\Debug\Atividade de classe(carro).csproj.AssemblyReference.cache
+C:\Users\Administrador\Documents\C#\Exercícios\Atividade de classe(carro)\Atividade de classe(carro)\obj\Debug\Atividade de classe(carro).csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrador\Documents\C#\Exercícios\Atividade de classe(carro)\Atividade de classe(carro)\obj\Debug\Atividade de classe(carro).csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\C#\Exercícios\Atividade de classe(carro)\Atividade de classe(carro)\obj\Debug\Atividade de classe(carro).exe
+C:\Users\Administrador\Documents\C#\Exercícios\Atividade de classe(carro)\Atividade de classe(carro)\obj\Debug\Atividade de classe(carro).pdb
+C:\Users\082220018\Downloads\Atividade_Classes-carro--main\Atividade_Classes-carro--main\Atividade de classe(carro)\Atividade de classe(carro)\bin\Debug\Atividade de classe(carro).exe.config
+C:\Users\082220018\Downloads\Atividade_Classes-carro--main\Atividade_Classes-carro--main\Atividade de classe(carro)\Atividade de classe(carro)\bin\Debug\Atividade de classe(carro).exe
+C:\Users\082220018\Downloads\Atividade_Classes-carro--main\Atividade_Classes-carro--main\Atividade de classe(carro)\Atividade de classe(carro)\bin\Debug\Atividade de classe(carro).pdb
+C:\Users\082220018\Downloads\Atividade_Classes-carro--main\Atividade_Classes-carro--main\Atividade de classe(carro)\Atividade de classe(carro)\obj\Debug\Atividade de classe(carro).csproj.AssemblyReference.cache
+C:\Users\082220018\Downloads\Atividade_Classes-carro--main\Atividade_Classes-carro--main\Atividade de classe(carro)\Atividade de classe(carro)\obj\Debug\Atividade de classe(carro).csproj.SuggestedBindingRedirects.cache
+C:\Users\082220018\Downloads\Atividade_Classes-carro--main\Atividade_Classes-carro--main\Atividade de classe(carro)\Atividade de classe(carro)\obj\Debug\Atividade de classe(carro).csproj.CoreCompileInputs.cache
+C:\Users\082220018\Downloads\Atividade_Classes-carro--main\Atividade_Classes-carro--main\Atividade de classe(carro)\Atividade de classe(carro)\obj\Debug\Atividade de classe(carro).exe
+C:\Users\082220018\Downloads\Atividade_Classes-carro--main\Atividade_Classes-carro--main\Atividade de classe(carro)\Atividade de classe(carro)\obj\Debug\Atividade de classe(carro).pdb
